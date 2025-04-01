@@ -1,4 +1,5 @@
 import './App.css'
+import FormComponent from './FormComponent'
 
 function App() {
 
@@ -39,6 +40,9 @@ function App() {
           </div> 
         </div>
 
+        <div className="table_block">
+          <FormComponent/>
+        </div>
 
         <div className="developers">
 

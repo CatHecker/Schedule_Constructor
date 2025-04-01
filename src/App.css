@@ -19,7 +19,11 @@
 
 ::-webkit-scrollbar {
   width: 1px;
-  background-color: ;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2115EF;
+  border-radius: 100%;
 }
 
 /* Reset CSS */
@@ -190,6 +194,15 @@ body {
   color: #2115EF;
   background: none;
   border: 1px solid #2115EF;
+}
+
+.test {
+  color: white;
+  border: 1px solid #2115EF 
+}
+
+.table_block button {
+  background-color: #2115EF;
 }
 
 .background {
